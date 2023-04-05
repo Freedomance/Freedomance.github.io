@@ -1,6 +1,7 @@
 ---
 title: LeetCode Day01 
 tags: C++
+layout: article
 article_header:
   background_color: '#203028'
   background_image:
