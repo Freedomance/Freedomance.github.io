@@ -63,7 +63,8 @@ int TwodivideSearch(vector<int>& nums, int target){
 }
 ```
  - 搜索元素插入位置
- - 
+
+
 ```
 //暴力求解
 int SearchInsert(vector<int>& nums, int target){
