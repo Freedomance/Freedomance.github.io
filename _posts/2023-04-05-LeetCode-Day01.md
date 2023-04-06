@@ -62,7 +62,7 @@ int TwodivideSearch(vector<int>& nums, int target){
  - 搜索元素插入位置
 
 
-```C++
+```c++
 //暴力求解
 int SearchInsert(vector<int>& nums, int target){
     for(int i = 0; i <nums.size(); i++){
@@ -97,7 +97,7 @@ int SearchInsert(vector<int>& nums, int target){
       - 思路3：如果要去掉最后一个元素，则push;
 
 
-```C++
+```cpp
 //暴力求解
 int removeElement(vector<int>& nums, int val) {
     int newlen = nums.size();
