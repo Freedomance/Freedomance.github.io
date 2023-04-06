@@ -19,6 +19,7 @@ tags: C++
   - 有序数组的平方
     - 初始思路
       - 关键点：①求平方 ②排序 
+
 ```cpp
 // 暴力求解
 vector<int> sortedSquares(vector<int>& nums){
