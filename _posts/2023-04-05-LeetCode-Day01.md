@@ -10,12 +10,10 @@ tags: C++
       - No.35 搜索插入位置 
  - No.27   移除元素
 
-
 所属模块：
  - 数组
  
 基础知识：
- 
 
 核心算法：
  - 二分查找 
@@ -113,12 +111,14 @@ int removeElement(vector<int>& nums, int val) {
     return newlen;     
 }
 
-//双指针法（快慢指针） 此指针非彼指针
+//双指针法（快慢指针） 此指针非彼指针 本质上相当于数组元素的筛选
 int removeElement(vector<int>& nums, int val) {
     int slowIndex = 0;
     for(int fastIndex = 0; fastIndex < nums.size(); fastIndex++){
         if(val != nums[fastIndex]){
-            nums[slowIndex++] = nums[fastIndex];
+            nums[slowIndex] = nums[fastIndex]; 
+            slowIndex++:
+            //nums[slowIndex++] = nums[fastIndex]; 
         }
     }
     return slowIndex;
