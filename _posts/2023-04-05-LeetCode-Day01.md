@@ -20,7 +20,7 @@ No.27
 核心算法：
  - 二分查找 
 
-```C++
+```cpp
 //左闭右开 [left, right)
 int TwodivideSearch(vector<int>& nums, int target){
     int left=0;
