@@ -2,8 +2,8 @@
 title: LeetCode Day01 
 tags: C++
 ---
-No.704
-No.27
+- No.704 二分查找
+- No.27  移除元素
 <!--more-->
 题目：
  - No.704  二分查找
