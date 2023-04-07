@@ -54,6 +54,7 @@ vector<int> sortedSquares(vector<int>& nums){
 
  - 长度最小的子数组
   - 有难度，乍一看题目，暴力方法可能也想不出来
+ 
 
 ```cpp
 //暴力求解
@@ -94,11 +95,12 @@ int minSubArrayLen(int target, vector<int>& nums){
     return result == INT32_MAX ? 0 : result;
 }
 ```
+
 - 螺旋矩阵Ⅱ
  - 初始思路：矩阵维度n*n,关键在于如何按螺旋方式遍历1-n
  - 学习视频讲解收获：循环不变量原则
 
-```cpp
+```c++
 vector<vector<int>> generateMatrix(int n){
     vector<vector<int>> res(n, vector<int>(n, 0));
     int startx = 0, starty = 0;
