@@ -93,7 +93,7 @@ int minSubArrayLen(int target, vector<int>& nums){
 }
 ```
 - 螺旋矩阵Ⅱ
- - 初始思路：矩阵维度n*n,关键在于如何按螺旋方式遍历1-n^2
+ - 初始思路：矩阵维度n*n,关键在于如何按螺旋方式遍历1-n
  - 学习视频讲解收获：循环不变量原则
 ```cpp
 vector<vector<int>> generateMatrix(int n){
