@@ -142,7 +142,7 @@ vector<int> twoSum(vector<int>& nums, int terget){
   for(int i = 0 ; i < nums.size(); i++){
     auto iter = map.find(target - nums[i]);
     if(iter != map.end()){
-      return {iter->second, i};
+      return {iter->second, i};   //iter->second
     }
     map.insert(pair<int, int>(nums[i], i));
   }
