@@ -1,5 +1,5 @@
 ---
-title: LeetCode Day04 第二章 链表
+title: LeetCode Day04
 tags: C++
 ---
 链表    No.24 两两交换链表中的节点    No.19 删除链表的倒数第N个节点    面试题 02.07. 链表相交    No.142 环形链表Ⅱ    总结
